@@ -12,6 +12,7 @@ import { FormsModule } from "@angular/forms";
 import { MensagemComponent } from "./components/mensagem/mensagem.component";
 import { MaiorIdadeDirective } from "./directives/maior-idade.directive";
 import { MudarCorDirectiveDirective } from "./directives/mudar-cor-directive.directive";
+import { ValidandoCepDirective } from './directives/validando-cep.directive';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MudarCorDirectiveDirective } from "./directives/mudar-cor-directive.dir
     MensagemComponent,
     MaiorIdadeDirective,
     MudarCorDirectiveDirective,
+    ValidandoCepDirective,
   ],
   imports: [
     BrowserModule, 
